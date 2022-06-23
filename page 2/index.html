@@ -23,52 +23,54 @@
     </header>
 
     <main class="main">
-        <h1 class="main__title">ВОЗМОЖНОСТИ</h1>
-        <div class="main__items">
-            <div class="main__img"><img src="./assets/img/praktikum3_1.svg" alt=""
-                    class="main__img main__img_no-cables">
-            </div>
-            <div class="main__img"><img src="./assets/img/praktikum2_1.svg" alt=""
-                    class="main__img main__img_no-computer">
-            </div>
-            <div class="main__img"><img src="./assets/img/praktikum1_1.svg" alt="" class="main__img main__img_work">
-            </div>
-            <div class="main__card">
-                <h3 class="main__card_title">БЕЗ ПРОВОДОВ</h3>
-                <p>Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы
+        <h1 class="main-title">ВОЗМОЖНОСТИ</h1>
+        <div class="main-items">
+            <div class="main-card">
+                <img src="./assets/img/praktikum3_1.svg" alt="человек в халате и VR-очках с пробиркой в руке"
+                    class="main-card__img main-card__img_no-cables">
+                <h3 class="main-card__title">БЕЗ ПРОВОДОВ</h3>
+                <p class="main-card__text main-card__text_no-cables">Шлем работает без проводов. Не нужен ни компьютер,
+                    ни внешнее питание, ни большое помещение, чтобы
                     расставить трекеры.</p>
             </div>
-            <div class="main__card">
-                <h3 class="main__card_title">БЕЗ КОМПЬЮТЕРА</h3>
-                <p>Современным VR-шлемам нужен мощный компьютер, чтобы запускать
+            <div class="main-card"><img src="./assets/img/praktikum2_1.svg" alt="робот"
+                    class="main-card__img main-card__img_no-computer">
+                <h3 class="main-card__title">БЕЗ КОМПЬЮТЕРА</h3>
+                <p class="main-card__text main-card__text_no-computer">Современным VR-шлемам нужен мощный компьютер,
+                    чтобы запускать
                     игры. Наш шлем запускает игры из
                     облака,
                     поэтому просто наслаждайтесь.</p>
             </div>
-            <div class="main__card">
-                <h3 class="main__card_title">ДО 10 ЧАСОВ РАБОТЫ</h3>
-                <p>Несмотря на компактность и производительность, шлем может работать до 10
+            <div class="main-card">
+                <img src="./assets/img/praktikum1_1.svg" alt="человек, работающий с ноутбуком за столом"
+                    class="main-card__img main-card__img_work">
+                <h3 class="main-card__title">ДО 10 ЧАСОВ РАБОТЫ</h3>
+                <p class="main-card__text main-card__text_work">Несмотря на компактность и производительность, шлем
+                    может работать до 10
                     часов — даже, если вы
                     играете в
                     самые ресурсоемкие игры.</p>
             </div>
-            <div class="main__card">
-                <h3 class="main__card_title">СОТНИ ИГР</h3>
-                <p>Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до
+            <div class="main-card">
+                <h3 class="main-card__title">СОТНИ ИГР</h3>
+                <p class="main-card__text main-card__text_games">Уже сейчас вам доступно более сотни игр: от
+                    высокобюджетных ААА-тайтлов до
                     маленьких независимых
                     проектов. Скоро их станет еще больше.</p>
             </div>
-            <div class="main__card">
-                <h3 class="main__card_title">ПОЧТИ ДАРОМ</h3>
-                <p>По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы
+            <div class="main-card">
+                <h3 class="main-card__title">ПОЧТИ ДАРОМ</h3>
+                <p class="main-card__text main-card__text_price">По сравнению с другими VR-шлемами наш стоит гораздо
+                    меньше. И вы
                     существенно экономите на мощном
                     компьютере.</p>
             </div>
-            <div class="main__card main__card_subscribe">
-                <h3 class="main__card_news">НОВОСТИ</h3>
-                <form action="">
-                    <input type="mail" placeholder="Эл. почта">
-                    <button class="main__card_subscribe_btn">ПОДПИСАТЬСЯ</button>
+            <div class="main-card main-card_subscribe">
+                <h3 class="main-card__title main-card__title_news">НОВОСТИ</h3>
+                <form action="link" class="main-form main-form_subscribe">
+                    <input type="email" placeholder="Эл. почта" class="main-form__input">
+                    <button class="main-form__btn main-form__btn_subscribe">ПОДПИСАТЬСЯ</button>
                 </form>
             </div>
         </div>
@@ -76,7 +78,7 @@
 
     <footer class="footer">
         <nav class="footer__nav">
-            <a href="#" class="footer__nav footer__nav_capabilities">Возможности</a>
+            <a href="#" class="footer__nav footer__nav_main">Главная</a>
             <a href="link" class="footer__nav footer__nav_buy">Где купить</a>
             <a href="link" class="footer__nav footer__nav_delivery">Доставка</a>
             <a href="link" class="footer__nav footer__nav_help">Помощь</a>
